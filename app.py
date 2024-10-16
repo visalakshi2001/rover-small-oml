@@ -2,10 +2,9 @@
 import streamlit as st
 
 # Import functions from other files, where the View is created
-from dashboard import dashschedule, dashresults, dashreqs
+from dashboard import dashschedule, dashresults
 from architecture import sysarcfunc, requirements
 from issues import sysissues
-# from home import homefunc, progmgmtfunc
 
 # Set page configuration, page title is the titlebar content, icon also appears on title bar
 st.set_page_config(page_title="Rover Dashboard", page_icon="📡", layout="wide")

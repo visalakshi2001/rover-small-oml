@@ -28,7 +28,6 @@ def dashschedule():
         for i,num in enumerate(programs["num_Tests"]):
             metriccols[i].metric(label=programs.iloc[i]["TestProgram"], value=num, delta=f"{num-2} Scheduled")
 
-
             
     # read the data for test schedule
     testscheduling = pd.read_csv("reports/Query6_Scheduling 2.csv", index_col=0)
