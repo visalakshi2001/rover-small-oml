@@ -45,7 +45,7 @@ def requirements():
 
 
     st.dataframe(breakdown.set_index("ID").style. \
-                 applymap(lambda x: f'background-color: {more_colors["amber"]}' if pd.isna(x) else None, subset=["Verified By"]), 
+                 applymap(lambda x: f'background-color: {more_colors["amber"]}' if pd.isna(x) else None, subset=["Verified By", "Satisfied By"]), 
                  column_config={"ID": st.column_config.NumberColumn("ID", format="%s")},
                  use_container_width=True)
     
