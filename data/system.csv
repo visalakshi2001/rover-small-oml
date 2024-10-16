@@ -1,0 +1,6 @@
+System,Subsystem,Component
+Rover,MobilitySubsystem,
+Rover,PowerSubsystem,Battery
+Rover,PowerSubsystem,Harness
+Rover,PowerSubsystem,SolarArrayAssembly
+Rover,CommunicationsSubsystem,

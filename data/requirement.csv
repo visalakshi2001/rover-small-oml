@@ -1,0 +1,8 @@
+ID,Requirement Name,Requirement Description,Satisfied By,Verified By
+10877,Terrain Requirement,"The system shall be capable of operating in both indoor and outdoor terrains.",Rover.mobility,
+10878,Remote Control Requirement,"The system shall have remote control capacity between 3-20 ft.",Rover.comms,VerificationActivity1_1
+10879,Autonomous Requirement,"The system shall become autonomous if there is no signal through the remote control after 30 seconds.",,VerificationActivity2_1
+10880,Cargo Requirement,"The system shall be able to carry cargo up to 40 lbs.",,VerificationActivity1_3
+10881,Spinning Requirement,"The system shall observe 360 degrees in 30 second intervals when the system is turned on.",Rover.mobility,
+10882,Trash Requirement,"The system shall grab food container-type trash and dispose of it.",,
+11021,Mass Requirement,"The system mass shall be less than 5kg.",,
